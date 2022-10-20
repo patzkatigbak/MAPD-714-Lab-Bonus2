@@ -126,14 +126,36 @@
                     <view key="view" contentMode="scaleToFill" id="JOC-EO-gLZ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kmW-Jb-2eI">
+                                <rect key="frame" x="0.0" y="115" width="390" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ytf-9Q-8rd" id="T8N-E6-UBa"/>
+                                    <outlet property="delegate" destination="Ytf-9Q-8rd" id="avJ-q2-3vz"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmZ-kN-LF0">
+                                <rect key="frame" x="145" y="407" width="100" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Select"/>
+                                <connections>
+                                    <action selector="selectButton_Pressed:" destination="Ytf-9Q-8rd" eventType="touchUpInside" id="J5w-0p-wCX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Cy0-6C-oG6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dependent" image="arrow.backward.to.line" catalog="system" id="lAY-e6-WRE"/>
+                    <connections>
+                        <outlet property="dependentPicker" destination="kmW-Jb-2eI" id="bn6-lM-rUg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDq-4X-Mw2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2618.840579710145" y="-858.48214285714278"/>
+            <point key="canvasLocation" x="2618.4615384615386" y="-858.76777251184831"/>
         </scene>
         <!--Custom-->
         <scene sceneID="8HM-xK-1ka">

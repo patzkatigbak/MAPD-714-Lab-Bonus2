@@ -17,6 +17,7 @@
 		C8B9BCCF2900D85500438785 /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9BCCE2900D85500438785 /* DoubleComponentPickerViewController.swift */; };
 		C8B9BCD12900D87300438785 /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9BCD02900D87300438785 /* DependentComponentPickerViewController.swift */; };
 		C8B9BCD32900D88600438785 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9BCD22900D88600438785 /* CustomPickerViewController.swift */; };
+		C8B9BCD72900EBF100438785 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8B9BCD62900EBF100438785 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C8B9BCCE2900D85500438785 /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
 		C8B9BCD02900D87300438785 /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
 		C8B9BCD22900D88600438785 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		C8B9BCD62900EBF100438785 /* statedictionary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				C8B9BCC12900D72D00438785 /* Assets.xcassets */,
 				C8B9BCC32900D72D00438785 /* LaunchScreen.storyboard */,
 				C8B9BCC62900D72D00438785 /* Info.plist */,
+				C8B9BCD62900EBF100438785 /* statedictionary.plist */,
 			);
 			path = "MAPD-714 Lab Bonus2";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				C8B9BCC52900D72D00438785 /* LaunchScreen.storyboard in Resources */,
 				C8B9BCC22900D72D00438785 /* Assets.xcassets in Resources */,
+				C8B9BCD72900EBF100438785 /* statedictionary.plist in Resources */,
 				C8B9BCC02900D72B00438785 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
