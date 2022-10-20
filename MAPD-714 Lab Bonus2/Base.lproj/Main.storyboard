@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5wL-ye-UDK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DatePickerViewController" customModule="MAPD_714_Lab_Bonus2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Date" image="alarm" catalog="system" id="zoa-kY-adp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460.86956521739131" y="-858.48214285714278"/>
+        </scene>
+        <!--Single-->
+        <scene sceneID="46f-4o-KmY">
+            <objects>
+                <viewController id="1wC-lJ-H9v" customClass="SingleComponentPickerViewController" customModule="MAPD_714_Lab_Bonus2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Xe-Ez-KWa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="i33-A2-5tl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Single" image="1.circle" catalog="system" id="c5Y-iz-qdb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3TR-vc-IYA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192.753623188406" y="-858.48214285714278"/>
+        </scene>
+        <!--Double-->
+        <scene sceneID="ATJ-0U-gQM">
+            <objects>
+                <viewController id="dvl-nz-Osx" customClass="DoubleComponentPickerViewController" customModule="MAPD_714_Lab_Bonus2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Njj-K0-OKT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Pc8-Se-6Va"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Double" image="2.circle" catalog="system" id="R7r-Cq-C5n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jyi-bi-zTh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918.840579710145" y="-858.48214285714278"/>
+        </scene>
+        <!--Dependent-->
+        <scene sceneID="NiA-za-Smd">
+            <objects>
+                <viewController id="Ytf-9Q-8rd" customClass="DependentComponentPickerViewController" customModule="MAPD_714_Lab_Bonus2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JOC-EO-gLZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cy0-6C-oG6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dependent" image="arrow.backward.to.line" catalog="system" id="lAY-e6-WRE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gDq-4X-Mw2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2618.840579710145" y="-858.48214285714278"/>
+        </scene>
+        <!--Custom-->
+        <scene sceneID="8HM-xK-1ka">
+            <objects>
+                <viewController id="wU0-z3-dSO" customClass="CustomPickerViewController" customModule="MAPD_714_Lab_Bonus2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5HP-xL-3pw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dMI-Sd-Xjs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Custom" image="wrench.and.screwdriver" catalog="system" id="9rU-0D-uBH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yeh-nq-EYJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3326.0869565217395" y="-858.48214285714278"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="PVF-O1-9Ze">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5wL-ye-UDK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gdB-HD-zkn">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="KV7-t7-fnD"/>
+                        <segue destination="1wC-lJ-H9v" kind="relationship" relationship="viewControllers" id="KWG-Hc-47Z"/>
+                        <segue destination="dvl-nz-Osx" kind="relationship" relationship="viewControllers" id="mdU-dV-04j"/>
+                        <segue destination="Ytf-9Q-8rd" kind="relationship" relationship="viewControllers" id="iqT-w4-I8i"/>
+                        <segue destination="wU0-z3-dSO" kind="relationship" relationship="viewControllers" id="csR-a5-HED"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0T-Y4-J68" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449.27536231884062" y="-858.48214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.circle" catalog="system" width="128" height="121"/>
+        <image name="2.circle" catalog="system" width="128" height="121"/>
+        <image name="alarm" catalog="system" width="124" height="128"/>
+        <image name="arrow.backward.to.line" catalog="system" width="128" height="89"/>
+        <image name="wrench.and.screwdriver" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
